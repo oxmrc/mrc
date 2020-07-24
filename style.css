@@ -1,0 +1,206 @@
+body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #222;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div{
+	box-sizing: border-box;
+}
+header{
+	background: url(file:///C:/Users/musak/Desktop/сайт/MrCata%20site/Верстка/img/first-bg.jpg) no-repeat center top / cover;
+height: 100vh;
+}
+.logo{
+	margin-top: 41px;
+	width: 50px;
+	float: left;
+}
+.container{
+	padding: 0;
+	width: 930px;
+	margin: 0 auto;
+}
+nav{
+	float: right;
+	margin-top: 53px;
+}
+.menu{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.menu li {
+	float: left;
+	display: block;
+	margin-left: 41px;
+}
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.titles_first {
+	color: #fff;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 170px;
+}
+h1 {
+	color: #fff;
+	font-size: 75px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+}
+.button{
+	background: darkred;
+	color: black;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 40px;
+
+}
+.title{
+	margin: 0;
+	padding: 0;
+	margin-top: 115px;
+}
+.title h2{
+	font-weight: bold;
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+}
+.title p{
+	text-align: center;
+	margin: 5px;
+	padding: 0;
+	color: #777;
+	font-size: 16px;
+}
+#services{
+	padding: 0;
+}
+.services{
+	margin-top: 80px;
+	padding-bottom: 120px;
+}
+.services_item{
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+.services_item h3{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.services_item p{
+	color: #777;
+	font-size: 14px;
+	line-height: 1.6em;
+	padding-bottom: 0;
+}
+.services_item:last-child {
+	float: right;
+}
+.services_item:nth-child(2){
+	margin-left: 62px;
+}
+#portfolio{
+	background: #f7f7f7;
+	padding-top: 10px;
+	padding-bottom: 120px;
+}
+.works{
+	margin-top: 75px;
+}
+.works img{
+	float: left;
+}
+.works img:last-child {
+	float: right;
+}
+.works img:nth-child(2){
+	margin-left: 30px;
+}
+
+
+.about{
+	padding-top: 80px;
+	padding-bottom: 200px;
+}
+.about_text{
+	float: left;
+	text-align: right;
+	width: 330px;
+	margin: 10px;
+	padding: 0;
+}
+.about_text h3{
+	font-size: 18px;
+}
+.about_text p{
+	font-size: 14px;
+	color: #777;
+	line-height: 1.6em;
+		text-align: right;
+}
+.about_img{
+	float: right;
+	margin-right: 375px;
+	padding-top: 25px; 
+}
+.about2{
+	padding-top: 80px;
+	padding-bottom: 200px; 
+}
+.about_text2{
+	float: right;
+	text-align: left;
+	width: 330px;
+	margin: 10px;
+	padding: 0;
+}
+.about_text2 h3{
+	font-size: 18px;
+}
+.about_text2 p{
+	font-size: 14px;
+	color: #777;
+	line-height: 1.6em;
+		text-align: left;
+}
+.about_img2{
+	float: left;
+	margin-left: 375px;
+	padding-top: 25px; 
+}
+.zhopa{
+	text-align: center;
+	font-size: 14px;
+	color: #777;
+	padding-top: 100px;
+	padding-bottom: 100px; 
+}
